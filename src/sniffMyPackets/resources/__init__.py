@@ -10,8 +10,9 @@ __maintainer__ = 'catalyst256'
 __email__ = 'catalyst256@gmail.com'
 __status__ = 'Development'
 __all__ = [
+    'databases',
     'etc',
+	'external',
     'images',
-    'maltego',
-    'external'
+    'maltego'
 ]

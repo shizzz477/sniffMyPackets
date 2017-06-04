@@ -34,8 +34,10 @@ __all__ = [
     'Service',
     'Folder',
     'ZipFile',
+	'DecodeAs',
     'SnortFile',
-    'MobilePhone'
+    'MobilePhone',
+    'Vendor'
 ]
 
 class SniffmypacketsEntity(Entity):

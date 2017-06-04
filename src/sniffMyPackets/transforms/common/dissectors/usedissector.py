@@ -1,5 +1,3 @@
-import json
-
 from dissector import *
 
 """
@@ -10,7 +8,7 @@ depends on Scapy library.
 # instance of dissector class
 dissector = Dissector()
 
-#dissector.change_dfolder("/root/Desktop/aaa")
+# dissector.change_dfolder("/root/Desktop/aaa")
 
 # sending the pcap file to be dissected
 pkts = dissector.dissect_pkts("/root/Desktop/ssh.cap")
